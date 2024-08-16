@@ -225,9 +225,6 @@ img{
     width: 4.5rem;
     height: 5.75rem;
     padding: 1.125rem;
-    /*
-    padding: 1.125rem 1rem;
-    */
 }
 
 
@@ -299,22 +296,6 @@ img{
     background-color: #fff;
 }
 
-
-
-
-
-
-
-/*
-.container-form .section-button{
-    background-color: #5175FF;  
-    color: #fff;
-    width: 100%;
-    margin: 0;
-    margin-top: 2rem;
-}
-*/
-
 .submit-button{
     background-color: #5175FF;  
     color: #fff;
@@ -327,13 +308,6 @@ img{
     background-color: hsla(228, 100%, 66%, 0.4);
     color: #5175FF;
 }
-
-
-
-
-
-
-
 
 .container-form .section-button:hover{
     background-color: hsla(228, 100%, 66%, 0.6);
@@ -348,11 +322,8 @@ input{
     border-bottom: 0.0625rem solid hsla(227, 13%, 52%, 0.4);
 }
 
-
 input:focus{
-
     outline: none;
-
 }
 
 /*SELECT DEFAULT*/
@@ -391,13 +362,7 @@ select{
     height: 100%;
     padding-top: 1.2rem;
     display: inline-block;
-
-
-
     position: relative;
-
-
-
 }
 
 .select .value span{
@@ -418,10 +383,6 @@ select{
     display: inline-block;
     background: url(./images/sign-up/icon-arrow-down.svg) no-repeat;
     transform: rotate(180deg);
-    /*
-    position: relative;
-        left: 7rem;
-    */
     position: absolute;
        top: 1.8rem; right: 0;
 }
@@ -661,10 +622,6 @@ select{
 /*SELECT CUSTOM*/
 
     .arrow{
-        /*
-        position: relative;
-            left: 12rem;
-        */
         position: absolute;
         top: 1.8rem; right: 0;
     }
@@ -794,9 +751,6 @@ select{
         justify-content: space-between;
         align-items: center;
         width: 69.375rem;
-        /*
-        margin: 16.25rem 0 0;
-        */
         margin: 10rem 0 0;
     }
 
