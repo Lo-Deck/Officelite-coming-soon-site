@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8"> 
+      <meta name="description" content="Exercise Frontend Mentor, Officelite coming soon site sign-up">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <title>Frontend Mentor | Officelite coming soon site sign-up</title>
+    </head>
+    <body class="sign-up">
+
+      <div class="background-top"></div>
+
+      <main class="grid-container">
+
+        <header class="header-container">
+          <h1 class="container-logo"><img class="image-header" src="./images/shared/logo.svg" alt="logo"></h1>
+          <h2 class="title header-title">Work smarter. Save time.</h2>
+          <p class="text header-text">Easily manage your projects. Get on the list and receive in-app perks available only to 
+            early subscribers. We are moving into final development and getting ready for official launch soon.</p>
+        </header>
+
+        <section class="time">
+          <h3 class="title title-time"><span>Coming</span> 4 Nov 2024</h3>
+          <ul class="list list-timer">
+            <li class="li-timer title"><span class="setTimes">47</span><span>days</span></li>
+            <li class="li-timer title"><span class="setTimes">07</span><span>hours</span></li>
+            <li class="li-timer title"><span class="setTimes">56</span><span>min</span></li>
+            <li class="li-timer title"><span class="setTimes">14</span><span>sec</span></li>
+          </ul>
+        </section>
+
+
+        <form class="container-form" method="post" action="./index2.html" id="myForm" novalidate>
+          <input class="text" type="text" name="name" id="name" placeholder="Name" required>
+          <input class="text" type="email" name="email" id="email" placeholder="Email Address" required>
+          <select class="text" name="choose-plan" id="default-widget" form="myForm">
+            <option value="Basic" selected>Basic Pack Free</option>
+            <option value="Pro">Pro Pack $9.99</option>
+            <option value="Ultimate">Ultimate Pack $19.99</option>
+          </select>
+
+          <div class="text select widget-hidden" role="listbox" id="custom-widget"><!-- WIDGET DEFAULT -->
+            <span class="value">Basic Pack <span>Free</span><span class="arrow"></span></span>
+            <ul class="list optList hidden" role="presentation">
+              <li class="option" role="option">Basic Pack <span>Free</span><span class="checked"></span></li>
+              <li class="option" role="option">Pro Pack <span>$9.99</span><span></span></li>
+              <li class="option" role="option">Ultimate Pack <span>$19.99</span><span></span></li>
+            </ul>
+          </div>
+
+          <input class="text" type="tel" name="tel" placeholder="Phone Number" pattern="[0-9]{5,15}" required>
+          <input class="text" type="text" name="Company" placeholder="Company" required>
+          <button class="button submit-button" type="submit"  form="myForm">Get on the list</button>
+
+        </form> 
+
+      </main>
+
+      <div class="background-bottom"></div>
+
+      <script src="./script.js"></script>
+     
+    </body>
+
+</html>
+
